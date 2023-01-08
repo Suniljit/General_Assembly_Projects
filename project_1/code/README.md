@@ -5,7 +5,7 @@ Does Rainy Weather Increase Healthcare Cases
 There is a general consensus that during rainy seasons, people tend to fall sick more (e.g. flu). Furthermore, the wet environment could increase the likelyhood of road accidents and create an environment for mosquitoes to breed, resulting in an increase in dengue cases. If the above statement is true, analyzing the climate data in Singapore would allow healthcare professionals to identify peak periods where more staff and other resources such as hospital bed and medication would be needed. Advertising campaigns to get a flu jab can be made timely as well information campaigns to remind residents to ensure there are no mosquito breeding grounds formed. 
 
 ### Dataset:
-*Flu and Dengue Data*
+*Flu and Dengue Data* <br>
     * [Number of Flu and Dengue cases from 2012 to 2020](https://www.moh.gov.sg/resources-statistics/infectious-disease-statistics/2020/weekly-infectious-diseases-bulletin)
     * [Number of Flu and Dengue cases in 2021](https://www.moh.gov.sg/resources-statistics/infectious-disease-statistics/2021)
     * [Number of Flu and Dengue cases in 2022](https://www.moh.gov.sg/resources-statistics/infectious-disease-statistics/2022)
@@ -15,13 +15,9 @@ There is a general consensus that during rainy seasons, people tend to fall sick
 
 *Climate Data*
     * [Monthly number of rain days from 1982 to 2022](../data/rainfall-monthly-number-of-rain-days.csv)
-
     * [Monthly total rainfall in mm from 1982 to 2022](../data/rainfall-monthly-total.csv)
-
     * [Relative Humidity](https://data.gov.sg/dataset/relative-humidity-monthly-mean)
-
     * [Monthly Mean Shunshine Hours](https://data.gov.sg/dataset/sunshine-duration-monthly-mean-daily-duration)
-
     * [Surface Air Temperature](https://data.gov.sg/dataset/surface-air-temperature-mean-daily-minimum)
 
 
