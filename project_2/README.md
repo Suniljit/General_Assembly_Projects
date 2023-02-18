@@ -95,6 +95,7 @@ Based on the results and its analysis, the following improvements could also be 
 * The model has shown that the number of years remaining in the lease is a very significant feature. We also know that the value of a house appreciate over time, but eventually the value could start to decrease due to the depreciation of the lease. We should investigate further at which point does the depreciation become significant and starts lowering the price of the flat
 
 ### Directory Structure
+```
 project-2  
 |__ code  
 |   |__ 01_EDA_Cleaning_and_Feature_Engineering.ipynb     
@@ -112,4 +113,4 @@ project-2
 |   |__ train.csv  
 |__ An Analysis on HDB resale prices and its factors for predictions.pdf  
 |__ README.md  
-
+```
