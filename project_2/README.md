@@ -93,3 +93,23 @@ Based on the results and its analysis, the following improvements could also be 
 * The distance to important amenitites could be misleading as there might not be a direct route. Hence, we can consider using travel time instead
 * We can consider the  number of new flats that finish their minimum occupancy period (MOP) per year. This gives us a sensing of how many new flats are entering the resale market that year, affecting the supply.
 * The model has shown that the number of years remaining in the lease is a very significant feature. We also know that the value of a house appreciate over time, but eventually the value could start to decrease due to the depreciation of the lease. We should investigate further at which point does the depreciation become significant and starts lowering the price of the flat
+
+### Directory Structure
+project-2
+|__ code
+|   |__ 01_EDA_Cleaning_and_Feature_Engineering.ipynb   
+|   |__ 02_Exploratory_Visualizations.ipynb   
+|   |__ 03_Preprocessing_and_Modelling.ipynb
+|   |__ 04_Production_Model_and_Insights.ipynb   
+|__ datasets
+|   |__ kaggle_sub.csv
+|   |__ lasso_model.pkl
+|   |__ sample_sub_reg.csv
+|   |__ standard_scaler.pkl
+|   |__ test_cleaned.csv
+|   |__ test.csv
+|   |__ train_cleaned.csv
+|   |__ train.csv
+|__ An Analysis on HDB resale prices and its factors for predictions.pdf
+|__ README.md
+
