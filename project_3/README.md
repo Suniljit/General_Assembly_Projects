@@ -33,8 +33,14 @@ Through the exploratory data analysis, we will be looking into the following:
 From the figures below, we can see that both distributions have a right skew, as would be expected. 
 ![](https://github.com/Suniljit/General_Assembly_Projects/blob/main/project_3/images/word_length.png)
 
-**Most Frequently Occuring Words**
+**Most Frequently Occuring Words**  
 Quite a few common and giveaway words were identified when looking at the most frequently occuring words. Hence, they were included into our stopword list and removed to increase the quality of the data. After this cleaning process, we can observe that the words observed for both MCU and DCEU are very distinct.
+
+*Before Removing Common Words*
+![](https://github.com/Suniljit/General_Assembly_Projects/blob/main/project_3/images/frequently_occuring_words_unclean.png)
+
+*After Removing Common Words*
+![](https://github.com/Suniljit/General_Assembly_Projects/blob/main/project_3/images/frequently_occuring_words_clean.png)
 
 ### Modelling
 In this project, there were two key steps in our modelling process:
@@ -43,25 +49,25 @@ In this project, there were two key steps in our modelling process:
 
 **Vectorization**
 There were two vectorizers used in our modelling:
-1. Count Vectorizer
+1. Count Vectorizer  
 Converts a collection of text documents into a matrix of token counts
-2. TF-IDF Vectorizer
+2. TF-IDF Vectorizer  
 Similar to Count Vectorizer, but also tells us which words are important to one document, relative to all other documents.
 
 **Classification Algorithms**
-1. Naive Bayes
+1. Naive Bayes  
 The Naive Bayes model is a probabilistic classifier based on Bayes' theorem. It heavily relies on one simplifying assumption, which is that we assume our features are indepedent from one another. 
 
-2. Logistic Regression
+2. Logistic Regression  
 The logistic regression gives us the probability of a feature being in each class by using a link function to "bend" of line of best fit into a curve of best fit to match the values we're interested in. This link funciton is known as the logit link.
 
-3. K-Nearest Neighbors
+3. K-Nearest Neighbors  
 The KNN model is a non-parametric method that uses the nearest neighbor's classification to assign a class membership. 
 
-4. Random Forest
+4. Random Forest  
 The Random Forest Classifier is an emsemble method that combines the predictions of other smaller models. Each of the smaller model is a decision tree. 
 
-5. Support Vector Machine
+5. Support Vector Machine  
 The Support Vector Machine is a classification model that predicts the categorical vairables. They belong to a wider class of models called discriminant models. 
 
 ### Model Evaluation
@@ -103,21 +109,25 @@ Due to the nature of the problem statement, where mistakes could result in expen
 
 ### Directory Structure
 ```
-project-2  
+project-3  
 |__ code  
-|   |__ 01_EDA_Cleaning_and_Feature_Engineering.ipynb     
-|   |__ 02_Exploratory_Visualizations.ipynb     
-|   |__ 03_Preprocessing_and_Modelling.ipynb  
-|   |__ 04_Production_Model_and_Insights.ipynb     
-|__ datasets  
-|   |__ kaggle_sub.csv  
-|   |__ lasso_model.pkl  
-|   |__ sample_sub_reg.csv  
-|   |__ standard_scaler.pkl  
-|   |__ test_cleaned.csv  
-|   |__ test.csv  
-|   |__ train_cleaned.csv  
-|   |__ train.csv  
-|__ An Analysis on HDB resale prices and its factors for predictions.pdf  
+|   |__ 01_Data_Collection.ipynb     
+|   |__ 02_Data_Cleaning_and_Initial_Data_Exploration.ipynb     
+|   |__ 03_Preprocessing_and_EDA.ipynb  
+|   |__ 04_Modelling_Model_Evaluation_Conclusion.ipynb     
+|__ data    
+|   |__ dceu_clean.csv  
+|   |__ dceu.csv  
+|   |__ marvel_clean.csv  
+|   |__ marvel.csv  
+|   |__ x_test.pkl  
+|   |__ x_train.pkl  
+|   |__ y_test.pkl    
+|   |__ y_train.pkl  
+|__ images    
+|   |__ frequently_occuring_words_clean.png  
+|   |__ frequently_occuring_words_unclean.png  
+|   |__ word_length.png 
+|__ Digitalizing our Marketing and Branding Infringement Checks.pdf  
 |__ README.md  
 ```
