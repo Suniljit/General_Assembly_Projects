@@ -10,4 +10,5 @@ In this project, we'll be conducting an Exploratory Data Analysis (EDA) to see i
 ### Project 2 : An Analysis of HDB Resale Prices and its Factors for Predictions  
 Here, we'll be using the entire data science process to perform a linear regression analysis to predict HDB resale prices in Singapore, and also identify the significator features that contributes to the price.   
 
-
+### Project 3 : Digitalizing our Marketing and Branding Infringement Checks
+In this project, we will be implementing various classification models to conduct NLP and classify reddit posts as either from MCU or DCEU. This model can then be used to check for infringement in text documents between MCU and DCEU (e.g. if a publication is related to MCU, the model can check if any DCEU specific information has accidentally been included inside).
