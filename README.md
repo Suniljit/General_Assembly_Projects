@@ -12,3 +12,6 @@ Here, we'll be using the entire data science process to perform a linear regress
 
 ### Project 3 : Digitalizing our Marketing and Branding Infringement Checks
 In this project, we will be implementing various classification models to conduct NLP and classify reddit posts as either from MCU or DCEU. This model can then be used to check for infringement in text documents between MCU and DCEU (e.g. if a publication is related to MCU, the model can check if any DCEU specific information has accidentally been included inside).
+
+### Project 4 : Forecasting Dengue Cases in Singapore
+Here, we'll be using time-series and other regression models to forecast dengue cases 16 weeks into the future, so help authorities better time the deployment of Project Wolbachia to suppress dengue mosquito populations. 
