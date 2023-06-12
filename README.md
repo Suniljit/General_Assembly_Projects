@@ -15,3 +15,6 @@ In this project, we will be implementing various classification models to conduc
 
 ### Project 4 : Forecasting Dengue Cases in Singapore
 Here, we'll be using time-series and other regression models to forecast dengue cases 16 weeks into the future, so help authorities better time the deployment of Project Wolbachia to suppress dengue mosquito populations. 
+
+### Capstone Project: Topic Modeling of Academic Journals (Model Based Systesm Engineering)
+This project leverages unsupervised learning techniques to gain valuable insights into themes and trends within the Systems Engineering industry. These insights serve as a guiding force for shaping our organization's short-term and long-term goals. 
