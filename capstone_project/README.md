@@ -84,10 +84,10 @@ We have now identified the capabilites of MBSE as well as the relevant stakehold
 ### Future Works
 We have also identified the following two tasks to perform as part of our future works to improve this project, namely:
 
-1. Breaking Down Topic 0
-CUrrently, Topic 0 (Application of MBSE in Projects) is generic for project implementation. We would like to break it down into specific domains such as aerospace, naval, electric vehicles, NASA,etc. This would be beneficial to domain specific stakeholders as they can view articles specific to their field.
+1. Breaking Down Topic 0 <br>
+Currently, Topic 0 (Application of MBSE in Projects) is generic for project implementation. We would like to break it down into specific domains such as aerospace, naval, electric vehicles, NASA,etc. This would be beneficial to domain specific stakeholders as they can view articles specific to their field.
 
-2. Creating a Front-End for the Classification Model
+2. Creating a Front-End for the Classification Model <br>
 We would like to create a front-end implementation of the classification model. This would allow us to quickly pre-process and label newly published without having to open our jupyter notebooks.
 
 ### Directory Structure
