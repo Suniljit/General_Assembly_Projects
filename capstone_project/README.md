@@ -18,7 +18,7 @@ Our data was collected from the below three sources: <br>
 3. [Science Direct - 210 articles](https://www.sciencedirect.com)
 
 ### Exploratory Data Analysis (EDA)
-After cleaning the data, and removing stop words as well as commons words such as "model", "based", "systems" and "engineering" that appear in every article, we took a look at the unigrams and bigrams to draw some insight. Interesting terms such as "digital twin", "verification & validation" and "product development" were observed.
+After cleaning the data, and removing stop words as well as commons words such as "model", "based", "systems" and "engineering" that appear in every article, we took a look at the unigrams and bigrams to draw some insight. Interesting terms such as "digital twin", "verification & validation" and "product development" were observed. <br>
 ![](https://github.com/Suniljit/General_Assembly_Projects/blob/main/capstone_project/images/unigrams.png)
 ![](https://github.com/Suniljit/General_Assembly_Projects/blob/main/capstone_project/images/bigrams.png)
 
