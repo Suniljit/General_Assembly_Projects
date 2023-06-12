@@ -94,23 +94,38 @@ We would like to create a front-end implementation of the classification model. 
 ```
 capstone_project  
 |__ code  
-|   |__ 01_Data_Collection.ipynb     
-|   |__ 02_Data_Cleaning_and_Initial_Data_Exploration.ipynb     
-|   |__ 03_Preprocessing_and_EDA.ipynb  
-|   |__ 04_Modelling_Model_Evaluation_Conclusion.ipynb     
+|   |__ 01_data_cleaing.ipynb     
+|   |__ 02_preprocessing_and_EDA.ipynb     
+|   |__ 03_topic_modeling.ipynb  
+|   |__ 04_bertopic_modeling.ipynb
+|   |__ 05_topic_modeling_evaluation.ipynb  
+|   |__ 06_classification_modeling_future_works.ipynb   
 |__ data    
-|   |__ dceu_clean.csv  
-|   |__ dceu.csv  
-|   |__ marvel_clean.csv  
-|   |__ marvel.csv  
-|   |__ x_test.pkl  
-|   |__ x_train.pkl  
-|   |__ y_test.pkl    
-|   |__ y_train.pkl  
+|   |__ ieee_articles_1_384.csv
+|   |__ incose_articles_1_20.bib
+|   |__ incose_articles_101_120.bib
+|   |__ incose_articles_121_140.bib
+|   |__ incose_articles_141_160.bib
+|   |__ incose_articles_161_180.bib
+|   |__ incose_articles_181_200.bib 
+|   |__ incose_articles_201_220.bib
+|   |__ incose_articles_21_40.bib
+|   |__ incose_articles_221_240.bib
+|   |__ incose_articles_241_257.bib 
+|   |__ incose_articles_41_60.bib  
+|   |__ incose_articles_61_80.bib 
+|   |__ incose_articles_81_100.bib
+|   |__ journals_corpus.pkl
+|   |__ journals_processed.csv
+|   |__ journals_topics.csv  
+|   |__ journals.csv
+|   |__ ScienceDirect_articles_1_100.bib
+|   |__ ScienceDirect_articles_101_200.bib
+|   |__ ScienceDirect_articles_201_210.bib
 |__ images    
-|   |__ frequently_occuring_words_clean.png  
-|   |__ frequently_occuring_words_unclean.png  
-|   |__ word_length.png 
-|__ Digitalizing our Marketing and Branding Infringement Checks.pdf  
+|   |__ bigrams.png 
+|   |__ trends.png
+|   |__ unigrams.png
+|__ Capstoine Project Slides.pdf  
 |__ README.md  
 ```
